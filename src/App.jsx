@@ -12,9 +12,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/auth/register" element={<Registrazione />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/auth/login" element={<Login />} />
         <Route path="/selezione" element={<Selezione />} />
-        <Route path="/cliente" element={<Cliente />} />
+        <Route path="/clienti/crea" element={<Cliente />} />
         <Route path="/fattura" element={<Fattura />} />
         <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
