@@ -97,10 +97,109 @@ const Cliente = () => {
             />
           </InputGroup>
         </div>
-          <div className="proviamolo">
-          <InputGroup.Text id="basic-addon1" className="text-center">
-              Inidirizzo
+          <div>
+          <div className="contName">
+
+          </div>
+            <div className="contName">
+              Sede Legale:
+            </div>
+          </div>
+        <div className="unione">
+          <InputGroup className="mb-3 emailFormCliente ">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Via
             </InputGroup.Text>
+            <Form.Control
+              placeholder="Indirizzo sede legale"
+              aria-label="Indirizzo sede legale"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+            />
+          </InputGroup>
+
+          <InputGroup className="mb-3 emailFormCliente">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Località
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="Indirizzo sede operativa"
+              aria-label="Indirizzo sede operativa"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+            />
+          </InputGroup>
+
+        </div>
+
+        <div className="unione">
+          <InputGroup className="mb-3 emailFormCliente ">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              CAP
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="Indirizzo sede legale"
+              aria-label="Indirizzo sede legale"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+            />
+          </InputGroup>
+
+          <InputGroup className="mb-3 emailFormCliente">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Numero Civico
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="Indirizzo sede operativa"
+              aria-label="Indirizzo sede operativa"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+            />
+          </InputGroup>
+
+        </div>
+
+        
+          <InputGroup className="mb-3 emailFormCliente ">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              CAP
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="Indirizzo sede legale"
+              aria-label="Indirizzo sede legale"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+            />
+          </InputGroup>
+
+         
+          <div className="divAziendaClie">
+            <InputGroup.Text id="basic-addon1" className="testoClieAzienda">
+              Comune
+            </InputGroup.Text>
+          <Form.Select
+            aria-label="Default select example"
+            className="formTextCliente"
+          >
+
+            <option>Seleziona il comune</option>
+
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+          </Form.Select>
+
+          </div>
+        
+
+
+        <div>
+          <div className="contName">
+
+          </div>
+            <div className="contName">
+              Sede Operativa:
+            </div>
           </div>
         <div className="unione">
           <InputGroup className="mb-3 emailFormCliente ">
@@ -130,33 +229,7 @@ const Cliente = () => {
           
         </div>
 
-        <div className="unione">
-          <InputGroup className="mb-3 emailFormCliente ">
-            <InputGroup.Text id="basic-addon1" className="testo">
-              Inidirizzo
-            </InputGroup.Text>
-            <Form.Control
-              placeholder="Indirizzo sede legale"
-              aria-label="Indirizzo sede legale"
-              aria-describedby="basic-addon1"
-              className="formTextCliente"
-            />
-          </InputGroup>
-
-          <InputGroup className="mb-3 emailFormCliente">
-            <InputGroup.Text id="basic-addon1" className="testo">
-              Città
-            </InputGroup.Text>
-            <Form.Control
-              placeholder="Indirizzo sede operativa"
-              aria-label="Indirizzo sede operativa"
-              aria-describedby="basic-addon1"
-              className="formTextCliente"
-            />
-          </InputGroup>
-
-          
-        </div>
+        
 
         
           
