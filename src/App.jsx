@@ -15,7 +15,7 @@ function App() {
         <Route path="/auth/login" element={<Login />} />
         <Route path="/selezione" element={<Selezione />} />
         <Route path="/clienti/crea" element={<Cliente />} />
-        <Route path="/fattura" element={<Fattura />} />
+        <Route path="/fatture/crea" element={<Fattura />} />
         <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
     </BrowserRouter>

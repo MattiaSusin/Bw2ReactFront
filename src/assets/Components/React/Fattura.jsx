@@ -1,90 +1,84 @@
-import { Form, InputGroup} from "react-bootstrap";
+import { useState } from "react";
+import { Form, InputGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Fattura = () => {
-    return(
-        <div>
+  const [importo, setImporto] = useState("");
+  const [cliente, setCliente] = useState("");
 
-      <Form>
-          <h1 className="H1Cliente">REGISTRA FATTURA</h1>
+  const handleRegister = async (e) => {
+    e.preventDefault();
 
-          <div className="unione">
+    const fattura = { importo, cliente };
 
-<InputGroup className="mb-3 emailFormCliente">
-    <InputGroup.Text id="basic-addon1" className="testo">Nome</InputGroup.Text>
-    <Form.Control
-      placeholder="Nome"
-      aria-label="Nome"
-      aria-describedby="basic-addon1"
-      className="formTextCliente"
-    />
-  </InputGroup>
+    try {
+      const resp = await fetch(`http://localhost:3001/fatture/crea`, {
+        method: "POST",
+        headers: {
+          authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(fattura),
+      });
 
-  <InputGroup className="mb-3 emailFormCliente">
-    <InputGroup.Text id="basic-addon1" className="testo">Cognome</InputGroup.Text>
-    <Form.Control
-      placeholder="Cognome"
-      aria-label="Cognome"
-      aria-describedby="basic-addon1"
-      className="formTextCliente"
-    />
-  </InputGroup>
+      if (resp.ok) {
+        const data = await resp.json();
+        console.log(data);
+        alert("Fattura registrata con successo.");
+      } else {
+        alert("Registrazione fattura fallita.");
+      }
+    } catch (error) {
+      console.error("Errore: ", error);
+      alert("Errore durante la registrazione della fattura");
+    }
+  };
+  return (
+    <div>
+      <Form onSubmit={handleRegister}>
+        <h1 className="H1Cliente">REGISTRA FATTURA</h1>
 
-</div>
-<div className="unione">
-
-<div className="divAziendaClie">
-            <InputGroup.Text id="basic-addon1" className="testoClieAzienda">
-              Stato Fattura
-            </InputGroup.Text>
-          <Form.Select
-            aria-label="Default select example"
-            className="formTextCliente"
-          >
-
-            <option></option>
-
-            <option value="1">EMESSA</option>
-            <option value="2">RICEVUTA</option>
-            <option value="3">PAGATA</option>
-            <option value="4">DA PAGARE</option>
-            <option value="5">SCADUTA</option>
-          </Form.Select>
-
-
-          </div>
+        <div className="unione">
           <InputGroup className="mb-3 emailFormCliente">
-            <InputGroup.Text className="testo1">Fatturato </InputGroup.Text>
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Importo
+            </InputGroup.Text>
             <Form.Control
-              aria-label="Amount (to the nearest dollar)"
+              placeholder="Importo"
+              aria-label="Importo"
+              aria-describedby="basic-addon1"
               className="formTextCliente"
-              placeholder="Fatturato Annuale"
+              value={importo}
+              onChange={(e) => setImporto(e.target.value)}
             />
-            <InputGroup.Text>.00</InputGroup.Text>
           </InputGroup>
-</div>
-<div className="nrFattura">
 
-<InputGroup className="mb-3 emailFormCliente">
-    <InputGroup.Text id="basic-addon1" className="testo">Numero Fattura</InputGroup.Text>
-    <Form.Control
-      placeholder="Numero Fattura"
-      aria-label="Numero Fattura"
-      aria-describedby="basic-addon1"
-      className="formTextCliente"
-    />
-  </InputGroup>
-</div>
-
-<div className="ContBtnFattura"> 
-      <Link to="/selezione" className="nav-link">
-         <button className="btnReg">TORNA ALLA HOME</button>
-      </Link>
-      </div>
-      </Form>
+          <InputGroup className="mb-3 emailFormCliente">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Cliente
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="Cliente"
+              aria-label="Cliente"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+              value={cliente}
+              onChange={(e) => setCliente(e.target.value)}
+            />
+          </InputGroup>
         </div>
 
-    )
-}
+        <div className="ContBtnFattura">
+          <button className="btnReg" type="submit">
+            Registra Fattura
+          </button>
+          <Link to="/selezione" className="nav-link">
+            <button className="btnReg">TORNA ALLA HOME</button>
+          </Link>
+        </div>
+      </Form>
+    </div>
+  );
+};
 
 export default Fattura;
