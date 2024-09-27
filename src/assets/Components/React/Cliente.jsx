@@ -98,7 +98,7 @@ const Cliente = () => {
           </InputGroup>
         </div>
           <div className="proviamolo">
-          <InputGroup.Text id="basic-addon1" className="testo">
+          <InputGroup.Text id="basic-addon1" className="text-center">
               Inidirizzo
             </InputGroup.Text>
           </div>
