@@ -78,3 +78,13 @@
     font-size: xx-large;
     margin-top: 5%;
 }
+
+.ComuneCliente{
+    display: flex;
+    margin-left: 12%;
+    align-items: center;
+    margin-top: 25px;
+    width: 850px;
+    height: 150px;
+}
+

@@ -160,20 +160,10 @@ const Cliente = () => {
         </div>
 
         
-          <InputGroup className="mb-3 emailFormCliente ">
-            <InputGroup.Text id="basic-addon1" className="testo">
-              CAP
-            </InputGroup.Text>
-            <Form.Control
-              placeholder="Indirizzo sede legale"
-              aria-label="Indirizzo sede legale"
-              aria-describedby="basic-addon1"
-              className="formTextCliente"
-            />
-          </InputGroup>
+        
 
          
-          <div className="divAziendaClie">
+          <div className="ComuneCliente">
             <InputGroup.Text id="basic-addon1" className="testoClieAzienda">
               Comune
             </InputGroup.Text>
@@ -189,46 +179,21 @@ const Cliente = () => {
             <option value="3"></option>
           </Form.Select>
 
+
+          
+
           </div>
+
+
+
         
 
 
-        <div>
-          <div className="contName">
-
-          </div>
-            <div className="contName">
-              Sede Operativa:
-            </div>
-          </div>
-        <div className="unione">
-          <InputGroup className="mb-3 emailFormCliente ">
-            <InputGroup.Text id="basic-addon1" className="testo">
-              Inidirizzo
-            </InputGroup.Text>
-            <Form.Control
-              placeholder="Indirizzo sede legale"
-              aria-label="Indirizzo sede legale"
-              aria-describedby="basic-addon1"
-              className="formTextCliente"
-            />
-          </InputGroup>
-
-          <InputGroup className="mb-3 emailFormCliente">
-            <InputGroup.Text id="basic-addon1" className="testo">
-              Città
-            </InputGroup.Text>
-            <Form.Control
-              placeholder="Indirizzo sede operativa"
-              aria-label="Indirizzo sede operativa"
-              aria-describedby="basic-addon1"
-              className="formTextCliente"
-            />
-          </InputGroup>
-
           
-        </div>
+        
 
+
+        
         
 
         
