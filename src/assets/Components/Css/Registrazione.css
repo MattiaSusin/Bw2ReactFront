@@ -30,9 +30,11 @@
 }
 
 .ContBtnReg{
-    width: 900px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 10%;
+    
 }
 
 .ContBtnFattura{

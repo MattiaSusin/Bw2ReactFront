@@ -51,7 +51,7 @@ const Registrazione = () => {
             Password
         </Form.Label>
         <Col sm="10">
-          <Form.Control type="password" placeholder="Inserisci la tua email" className="formTextReg" autoComplete="current-password"/>
+          <Form.Control type="password" placeholder="Inserisci la tua password" className="formTextReg" autoComplete="current-password"/>
         </Col>
       </Form.Group>
       
@@ -63,7 +63,7 @@ const Registrazione = () => {
       </Link>
       </div>
       </Form>
-        </div>
+    </div>
     )
 }
 

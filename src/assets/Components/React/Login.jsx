@@ -16,7 +16,7 @@ const Login = () => {
             Password
         </Form.Label>
         <Col sm="10">
-          <Form.Control type="password" placeholder="Inserisci la tua email" className="formText"/>
+          <Form.Control type="password" placeholder="Inserisci la tua password" className="formText"/>
         </Col>
       </Form.Group>
       <div className="ContBtn"> 

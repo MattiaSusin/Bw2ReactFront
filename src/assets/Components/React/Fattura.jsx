@@ -33,23 +33,8 @@ const Fattura = () => {
 </div>
 <div className="unione">
 
-<div className="divAziendaClie">
-            <InputGroup.Text id="basic-addon1" className="testoClieAzienda">
-              Stato Fattura
-            </InputGroup.Text>
-          <Form.Select
-            aria-label="Default select example"
-            className="formTextCliente"
-          >
 
-            <option></option>
-
-            <option value="1">EMESSA</option>
-            <option value="2">RICEVUTA</option>
-            <option value="3">PAGATA</option>
-            <option value="4">DA PAGARE</option>
-            <option value="5">SCADUTA</option>
-          </Form.Select>
+            
 
 
           </div>
@@ -62,19 +47,8 @@ const Fattura = () => {
             />
             <InputGroup.Text>.00</InputGroup.Text>
           </InputGroup>
-</div>
-<div className="nrFattura">
 
-<InputGroup className="mb-3 emailFormCliente">
-    <InputGroup.Text id="basic-addon1" className="testo">Numero Fattura</InputGroup.Text>
-    <Form.Control
-      placeholder="Numero Fattura"
-      aria-label="Numero Fattura"
-      aria-describedby="basic-addon1"
-      className="formTextCliente"
-    />
-  </InputGroup>
-</div>
+
 
 <div className="ContBtnFattura"> 
       <Link to="/selezione" className="nav-link">

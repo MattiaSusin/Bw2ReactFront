@@ -97,10 +97,15 @@ const Cliente = () => {
             />
           </InputGroup>
         </div>
+          <div className="proviamolo">
+          <InputGroup.Text id="basic-addon1" className="testo">
+              Inidirizzo
+            </InputGroup.Text>
+          </div>
         <div className="unione">
           <InputGroup className="mb-3 emailFormCliente ">
             <InputGroup.Text id="basic-addon1" className="testo">
-              Indirizzo sede legale
+              Inidirizzo
             </InputGroup.Text>
             <Form.Control
               placeholder="Indirizzo sede legale"
@@ -112,7 +117,7 @@ const Cliente = () => {
 
           <InputGroup className="mb-3 emailFormCliente">
             <InputGroup.Text id="basic-addon1" className="testo">
-              Indirizzo sede operativa
+              Città
             </InputGroup.Text>
             <Form.Control
               placeholder="Indirizzo sede operativa"
@@ -121,6 +126,36 @@ const Cliente = () => {
               className="formTextCliente"
             />
           </InputGroup>
+
+          
+        </div>
+
+        <div className="unione">
+          <InputGroup className="mb-3 emailFormCliente ">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Inidirizzo
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="Indirizzo sede legale"
+              aria-label="Indirizzo sede legale"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+            />
+          </InputGroup>
+
+          <InputGroup className="mb-3 emailFormCliente">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Città
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="Indirizzo sede operativa"
+              aria-label="Indirizzo sede operativa"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+            />
+          </InputGroup>
+
+          
         </div>
 
         
