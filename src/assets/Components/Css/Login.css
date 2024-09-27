@@ -1,0 +1,59 @@
+.contFormTot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 900px;
+}
+
+.emailForm{
+    height: 150px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.emailSign{
+    margin-right: 50px;
+}
+
+.pwForm{
+    height: 150px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.pwSign{
+    margin-right: 20px;
+}
+
+.formText{
+    width: 250px;
+    height: 50px;
+    border-radius:10px ;
+    border: none;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.h1Login{
+    margin-bottom: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.ContBtn{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnlogin{
+display: flex;
+justify-content: center;
+height: 50px;
+}

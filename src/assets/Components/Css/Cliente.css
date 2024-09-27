@@ -1,0 +1,56 @@
+.emailFormCliente{
+    height: 150px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.formTextCliente{
+    width: 250px;
+    height: 50px;
+    border-radius:10px ;
+    border: none;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.unione{
+    display: flex;
+    justify-content: center;
+}
+
+.testo{
+    width: 150px;
+}
+
+.H1Cliente{
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+
+.testoClieAzienda{
+    font-size: x-large;
+    margin-right: 35px;
+}
+
+.divAziendaClie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 850px;
+    height: 150px;
+}
+
+.testo1{
+    margin-right: 25px;
+}
+
+.nrFattura{
+    display: flex;
+    justify-content: center;
+}

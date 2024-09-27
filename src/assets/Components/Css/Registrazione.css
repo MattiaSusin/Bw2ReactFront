@@ -1,0 +1,104 @@
+.emailSignReg{
+    margin-right: 50px;
+}
+
+.emailFormReg{
+    height: 150px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.pwFormReg{
+    height: 150px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.formTextReg{
+    width: 250px;
+    height: 50px;
+    border-radius:10px ;
+    border: none;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.ContBtnReg{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnReg{
+    display: flex;
+justify-content: center;
+height: 50px;
+}
+
+.contNomeCognReg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+
+.NomeCognReg{
+    margin-right: 60px;
+}
+.NomeRegForm{
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.CognomeRegForm{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 50px;
+}
+
+.UsernameReg{
+    margin-right: 60px;
+}
+
+.contUsernameReg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+
+.usernameFormReg{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 50px;
+}
+
+.roleFormReg{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 50px;
+}
+
+.contRoleReg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
