@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .pwFormReg{
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .formTextReg{
@@ -83,9 +83,10 @@ height: 50px;
 
 .contUsernameReg{
     display: flex;
-    justify-content: center;
+    justify-content:baseline;
     align-items: center;
     margin-bottom: 50px;
+    margin-left: 12%;
     font-size: xx-large;
 }
 

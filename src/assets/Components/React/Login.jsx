@@ -1,4 +1,5 @@
-import { Button, Col, Form, NavLink, Row} from "react-bootstrap";
+import { Button, Col, Form,Row} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Login = () => {
     return(
@@ -19,9 +20,9 @@ const Login = () => {
         </Col>
       </Form.Group>
       <div className="ContBtn"> 
-      <NavLink to="/selezione" className="nav-link">
+      <Link to="/selezione" className="nav-link">
          <Button className="btnlogin">ACCEDI</Button>
-      </NavLink>
+      </Link>
       </div>
       </Form>
         </div>

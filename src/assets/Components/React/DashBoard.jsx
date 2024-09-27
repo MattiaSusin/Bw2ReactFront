@@ -1,4 +1,5 @@
-import { Form, NavLink } from "react-bootstrap"
+import { Form, } from "react-bootstrap"
+import { Link } from "react-router-dom";
 
 const DashBoard = () => {
     return(
@@ -17,9 +18,9 @@ const DashBoard = () => {
             </div>
           </div>
           <div className="ContBtnFattura"> 
-      <NavLink to="/dashboard" className="nav-link">
+      <Link to="/selezione" className="nav-link">
          <button className="btnReg">TORNA ALLA HOME</button>
-      </NavLink>
+      </Link>
       </div>
       </Form>
 

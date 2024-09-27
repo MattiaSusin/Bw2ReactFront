@@ -4,13 +4,13 @@ import Login from './assets/Components/React/Login.jsx'
 import Registrazione from './assets/Components/React/Registrazione.jsx'
 import Cliente from './assets/Components/React/Cliente.jsx'
 import Selezione from './assets/Components/React/Selezione.jsx'
-import Fattura from './assets/Components/React/Fattura.jsx'
+import Fattura from '../src/assets/Components/React/Fattura.jsx'
 import DashBoard from './assets/Components/React/DashBoard.jsx'
 
 function App() {
 
   return (
-    <>
+    
        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Registrazione/>}/>
@@ -21,8 +21,7 @@ function App() {
             <Route path="/dashboard" element={<DashBoard/>}/>
           </Routes>                                   
       </BrowserRouter>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
