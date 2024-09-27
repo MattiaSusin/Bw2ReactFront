@@ -4,12 +4,32 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    
 }
 
-.btnSelezione{
+.btnSelezione1{
     border: none;
     border-radius: 10px;
     height: 150px;
     width: 350px;
+    margin-right: 10px;
+}
+
+.btnSelezione2{
+    border: none;
+    border-radius: 10px;
+    height: 150px;
+    width: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.btnSelezione3{
+    border: none;
+    border-radius: 10px;
+    height: 150px;
+    width: 350px;
+    margin-left: 10px;
 }
 

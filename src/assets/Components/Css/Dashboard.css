@@ -1,0 +1,49 @@
+.contDashboard{
+    width: 100vh;
+}
+
+.contTotDash{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ClientiCont{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    height: 40vh;
+    margin-bottom: 5%;
+}
+
+.FattureDash{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    height: 40vh;
+    margin-bottom: 5%;
+}
+
+.UtentiDash{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    height: 40vh;
+    margin-bottom: 5%;
+}
+
+.h2Dash{
+    font-size: x-large;
+    margin-top: 2%;
+    color: rgb(255, 2, 2);
+}
+
+.h2Dash:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

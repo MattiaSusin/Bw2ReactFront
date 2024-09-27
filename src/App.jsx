@@ -5,6 +5,7 @@ import Registrazione from './assets/Components/React/Registrazione.jsx'
 import Cliente from './assets/Components/React/Cliente.jsx'
 import Selezione from './assets/Components/React/Selezione.jsx'
 import Fattura from './assets/Components/React/Fattura.jsx'
+import DashBoard from './assets/Components/React/DashBoard.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/selezione" element={<Selezione/>}/>
             <Route path="/cliente" element={<Cliente/>}/>
             <Route path="/fattura" element={<Fattura/>}/>
+            <Route path="/dashboard" element={<DashBoard/>}/>
           </Routes>                                   
       </BrowserRouter>
     </>

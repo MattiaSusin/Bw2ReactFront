@@ -7,6 +7,7 @@ import '../src/assets/Components/Css/Form.css'
 import '../src/assets/Components/Css/Registrazione.css'
 import '../src/assets/Components/Css/Selezione.css'
 import '../src/assets/Components/Css/Cliente.css'
+import '../src/assets/Components/Css/Dashboard.css'
 
 import './index.css'
 

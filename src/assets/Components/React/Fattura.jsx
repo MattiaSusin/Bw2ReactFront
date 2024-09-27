@@ -1,4 +1,4 @@
-import { Form, InputGroup } from "react-bootstrap";
+import { Form, InputGroup, NavLink } from "react-bootstrap";
 
 const Fattura = () => {
     return(
@@ -74,6 +74,12 @@ const Fattura = () => {
     />
   </InputGroup>
 </div>
+
+<div className="ContBtnFattura"> 
+      <NavLink to="/dashboard" className="nav-link">
+         <button className="btnReg">TORNA ALLA HOME</button>
+      </NavLink>
+      </div>
       </Form>
         </div>
 

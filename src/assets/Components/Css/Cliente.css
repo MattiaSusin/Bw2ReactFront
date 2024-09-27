@@ -54,3 +54,10 @@
     display: flex;
     justify-content: center;
 }
+
+.btnCliente{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-left: 10px;
+}
