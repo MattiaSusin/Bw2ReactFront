@@ -38,7 +38,7 @@ const Fattura = () => {
       <Form onSubmit={handleRegister}>
         <h1 className="H1Cliente">REGISTRA FATTURA</h1>
 
-        <div className="unione">
+        <div>
           <InputGroup className="mb-3 emailFormCliente">
             <InputGroup.Text id="basic-addon1" className="testo">
               Importo
