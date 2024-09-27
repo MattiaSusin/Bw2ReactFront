@@ -17,6 +17,16 @@ const Cliente = () => {
   const [indirizzoSedeLegale, setIndirizzoSedeLegale] = useState("");
   const [indirizzoSedeOperativa, setIndirizzoSedeOperativa] = useState("");
 
+  /* const [via, setViaLegale] = useState("");
+  const [civico, setCivicoLegale] = useState("");
+  const [localitaLegale, setLocalitaLegale] = useState("");
+  const [comuneLegale, setComuneLegale] = useState("");
+
+  const [viaOperativa, setVia] = useState("");
+  const [civico, setCivico] = useState("");
+  const [localita, setLocalita] = useState("");
+  const [comune, setComune] = useState(""); */
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -151,7 +161,7 @@ const Cliente = () => {
         </div>
         <div className="unione">
           <InputGroup className="mb-3 emailFormCliente">
-            <InputGroup.Text className="testo1">Fatturato Annuale </InputGroup.Text>
+            <InputGroup.Text className="testo1 testo">Fatturato Annuale </InputGroup.Text>
             <Form.Control
               aria-label="Amount (to the nearest dollar)"
               className="formTextCliente"
@@ -176,9 +186,40 @@ const Cliente = () => {
             />
           </InputGroup>
         </div>
+
         <div>
+          <InputGroup className="mb-3 emailFormCliente">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Sede Legale
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="indirizzo sede legale"
+              aria-label="indirizzo sede legale"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+              value={indirizzoSedeLegale}
+              onChange={(e) => setIndirizzoSedeLegale(e.target.value)}
+            />
+          </InputGroup>
+        </div>
+        <div>
+          <InputGroup className="mb-3 emailFormCliente">
+            <InputGroup.Text id="basic-addon1" className="testo">
+              Sede operativa
+            </InputGroup.Text>
+            <Form.Control
+              placeholder="indirizzo sede operativa"
+              aria-label="indirizzo sede operativa"
+              aria-describedby="basic-addon1"
+              className="formTextCliente"
+              value={indirizzoSedeOperativa}
+              onChange={(e) => setIndirizzoSedeOperativa(e.target.value)}
+            />
+          </InputGroup>
+        </div>
+        {/*         <div>
           <div className="contName"></div>
-          <div className="contName">Sede Legale:</div>
+          <div className="contName testo">Sede Legale:</div>
         </div>
         <div className="unione">
           <InputGroup className="mb-3 emailFormCliente ">
@@ -237,7 +278,7 @@ const Cliente = () => {
         </div>
 
         <div className="ComuneCliente">
-          <InputGroup.Text id="basic-addon1" className="testoClieAzienda">
+          <InputGroup.Text id="basic-addon1" className="testoClieAzienda testo">
             Comune
           </InputGroup.Text>
           <Form.Select aria-label="Default select example" className="formTextCliente">
@@ -249,7 +290,7 @@ const Cliente = () => {
           </Form.Select>
         </div>
 
-        <div className="contName">Sede Operativa:</div>
+        <div className="contName testo">Sede Operativa:</div>
         <div className="unione">
           <InputGroup className="mb-3 emailFormCliente ">
             <InputGroup.Text id="basic-addon1" className="testo">
@@ -312,7 +353,7 @@ const Cliente = () => {
             <option value="2"></option>
             <option value="3"></option>
           </Form.Select>
-        </div>
+        </div> */}
 
         <div className="divAziendaClie">
           <InputGroup.Text id="basic-addon1" className="testoClieAzienda">

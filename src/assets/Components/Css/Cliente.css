@@ -1,90 +1,93 @@
-.emailFormCliente{
-    height: 150px;
-    width: 850px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: x-large;
+.emailFormCliente {
+  height: 150px;
+  width: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  color: aliceblue;
 }
 
-.formTextCliente{
-    width: 250px;
-    height: 50px;
-    border-radius:10px ;
-    border: none;
-    align-items: center;
-    padding-left: 50px;
+.formTextCliente {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  padding-left: 50px;
 }
 
-.unione{
-    display: flex;
-    justify-content: center;
+.unione {
+  display: flex;
+  justify-content: center;
 }
 
-.testo{
-    width: 150px;
+.testo {
+  width: 150px;
+  color: aliceblue;
 }
 
-.H1Cliente{
-    display: flex;
-    justify-content: center;
-    margin-top: 105px;
-    margin-bottom: 105px;
+.H1Cliente {
+  display: flex;
+  justify-content: center;
+  margin-top: 105px;
+  margin-bottom: 105px;
+  color: aliceblue;
 }
 
-.testoClieAzienda{
-    font-size: x-large;
-    margin-right: 35px;
+.testoClieAzienda {
+  font-size: x-large;
+  margin-right: 35px;
+  color: aliceblue;
 }
 
-.divAziendaClie{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    width: 850px;
-    height: 150px;
+.divAziendaClie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 850px;
+  height: 150px;
 }
 
-.testo1{
-    margin-right: 25px;
+.testo1 {
+  margin-right: 25px;
 }
 
-.nrFattura{
-    display: flex;
-    justify-content: center;
+.nrFattura {
+  display: flex;
+  justify-content: center;
 }
 
-.btnCliente{
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    margin-left: 10px;
+.btnCliente {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-left: 10px;
 }
 
-.unioneCliente{
-    display: flex;
+.unioneCliente {
+  display: flex;
   justify-content: space-around;
-    width: 1100px;
+  width: 1100px;
 }
 
-.proviamolo{
-    display: flex;
-
+.proviamolo {
+  display: flex;
 }
 
-.contName{
-    margin-left: 11.5%;
-    font-size: xx-large;
-    margin-top: 5%;
+.contName {
+  margin-left: 11.5%;
+  font-size: xx-large;
+  margin-top: 5%;
+  color: aliceblue;
 }
 
-.ComuneCliente{
-    display: flex;
-    margin-left: 12%;
-    align-items: center;
-    margin-top: 25px;
-    width: 850px;
-    height: 150px;
+.ComuneCliente {
+  display: flex;
+  margin-left: 12%;
+  align-items: center;
+  margin-top: 25px;
+  width: 850px;
+  height: 150px;
 }
-
